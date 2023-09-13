@@ -7,7 +7,7 @@ function App(): JSX.Element {
     return (
         <div className="App">
             <header className="App-header">
-                Messi is the GOAT by Thiago Vazquez
+                Messi is the GOAT by Thiago Vazquez CISC275
             </header>
             <h1> Lionel Messi is the Greatest Footballer of All Times</h1>
             <img src={img_messi} alt="picture of Messi kissing the World Cup" />
