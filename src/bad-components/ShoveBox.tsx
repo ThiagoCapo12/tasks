@@ -12,9 +12,7 @@ function ShoveBoxButton({
         setPosition(4 + position);
     };
 
-    return (
-        <Button onClick={() => setPosition(4 + position)}>Shove the Box</Button>
-    );
+    return <Button onClick={handleClick}>Shove the Box</Button>;
 }
 
 function MoveableBox({ position }: { position: number }): JSX.Element {
