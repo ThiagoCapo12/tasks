@@ -15,10 +15,10 @@ function App(): JSX.Element {
     return (
         <div className="App">
             <header className="App-header">
-                Messi is the GOAT by Thiago Vazquez CISC275
+                Messi is the GOAT by Thiago Vazquez CISC275 Hello World
             </header>
             <hr></hr>
-            {/* <DoubleHalf></DoubleHalf> */}
+            <DoubleHalf></DoubleHalf>
             <hr></hr>
             <ChooseTeam></ChooseTeam>
             <hr></hr>
