@@ -12,37 +12,41 @@ export const QuizEdit = ({
     deleteQuiz,
     switchEdit,
     resetView
-}: {) => {
+}: {
+    quiz: Quiz;
+    editQuiz: (Id: number, newQuiz: Quiz) => void;
+    deleteQuiz: (qId: number) => void;
+    switchEdit: () => void;
+    resetView: () => void;
+}) => {
     const [newQuiz, setNewQuiz] = useState<Quiz>({ ...quiz });
 
-    const editQuestion = (questionId: number, newQuestion: Question) => {
+    const editQuestion = (questionId: number, newQuestion: Question): void => {
         setNewQuiz({
             ...newQuiz,
-            questionList: newQuiz.questionList.map(
-            )
+            questionList: newQuiz.questionList.map((q: Question): Question => q.id === questionId ? newQuestion : q )
         });
     };
 
-    const removeQuestion = (questionId: number) => {
+    const removeQuestion = (questionId: number): void => {
         setNewQuiz({
             ...newQuiz,
-            questionList: newQuiz.questionList.filter(
-            )
+            questionList: newQuiz.questionList.filter((question: Question): boolean => question.id !== questionId)
         });
     };
 
-    const saveChanges = () => {
+    const saveChanges = (): void => {
         editQuiz(quiz.id, { ...newQuiz });
     };
 
-    const swapQuestion = (idx1: number, idx2: number) => {
+    const swapQuestion = (idx1: number, idx2: number): void => {
         setNewQuiz({
             ...newQuiz,
             questionList: newQuiz.questionList.map(
                 (q: Question, idx: number): Question => {
                     if (idx === idx1) return newQuiz.questionList[idx2];
                     if (idx === idx2) return newQuiz.questionList[idx1];
-                    return;
+                    return q;
                 }
             )
         });
@@ -79,7 +83,7 @@ export const QuizEdit = ({
                             ) => {
                                 setNewQuiz({
                                     ...newQuiz,
-                                    published: 
+                                    published: !newQuiz.published
                                 });
                             }}
                         ></Form.Check>
