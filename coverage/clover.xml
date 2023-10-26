@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1698012991482" clover="3.2.0">
+  <project timestamp="1698012991482" name="All files">
+    <metrics statements="264" coveredstatements="261" conditionals="109" coveredconditionals="103" methods="124" coveredmethods="124" elements="497" coveredelements="488" complexity="0" loc="264" ncloc="264" packages="5" files="23" classes="23"/>
+    <package name="src">
+      <metrics statements="135" coveredstatements="134" conditionals="65" coveredconditionals="63" methods="67" coveredmethods="67"/>
+      <file name="App.tsx" path="C:\Users\thiag\first_project\tasks\src\App.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="20" count="2" type="stmt"/>
+      </file>
+      <file name="arrays.ts" path="C:\Users\thiag\first_project\tasks\src\arrays.ts">
+        <metrics statements="42" coveredstatements="42" conditionals="18" coveredconditionals="18" methods="18" coveredmethods="18"/>
+        <line num="8" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="22" count="17" type="stmt"/>
+        <line num="23" count="6" type="stmt"/>
+        <line num="31" count="15" type="stmt"/>
+        <line num="32" count="40" type="stmt"/>
+        <line num="33" count="40" type="cond" truecount="2" falsecount="0"/>
+        <line num="36" count="15" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="47" count="8" type="stmt"/>
+        <line num="48" count="22" type="stmt"/>
+        <line num="50" count="8" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="59" count="6" type="stmt"/>
+        <line num="60" count="20" type="stmt"/>
+        <line num="61" count="15" type="cond" truecount="2" falsecount="0"/>
+        <line num="63" count="6" type="stmt"/>
+        <line num="71" count="22" type="stmt"/>
+        <line num="72" count="6" type="stmt"/>
+        <line num="81" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="84" count="19" type="stmt"/>
+        <line num="95" count="5" type="stmt"/>
+        <line num="96" count="12" type="stmt"/>
+        <line num="99" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="100" count="1" type="stmt"/>
+        <line num="102" count="4" type="stmt"/>
+        <line num="103" count="4" type="stmt"/>
+        <line num="135" count="7" type="stmt"/>
+        <line num="136" count="7" type="stmt"/>
+        <line num="138" count="7" type="stmt"/>
+        <line num="139" count="22" type="cond" truecount="4" falsecount="0"/>
+        <line num="140" count="2" type="stmt"/>
+        <line num="141" count="2" type="stmt"/>
+        <line num="143" count="20" type="stmt"/>
+        <line num="144" count="20" type="stmt"/>
+        <line num="148" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="149" count="5" type="stmt"/>
+        <line num="152" count="7" type="stmt"/>
+      </file>
+      <file name="functions.ts" path="C:\Users\thiag\first_project\tasks\src\functions.ts">
+        <metrics statements="16" coveredstatements="16" conditionals="16" coveredconditionals="16" methods="5" coveredmethods="5"/>
+        <line num="7" count="7" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="16" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="19" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="22" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="25" count="6" type="stmt"/>
+        <line num="32" count="6" type="stmt"/>
+        <line num="40" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="49" count="9" type="cond" truecount="4" falsecount="0"/>
+        <line num="50" count="2" type="stmt"/>
+        <line num="51" count="7" type="cond" truecount="4" falsecount="0"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="54" count="5" type="stmt"/>
+      </file>
+      <file name="nested.ts" path="C:\Users\thiag\first_project\tasks\src\nested.ts">
+        <metrics statements="47" coveredstatements="47" conditionals="23" coveredconditionals="22" methods="32" coveredmethods="32"/>
+        <line num="9" count="20" type="stmt"/>
+        <line num="18" count="5" type="stmt"/>
+        <line num="20" count="20" type="cond" truecount="3" falsecount="0"/>
+        <line num="34" count="24" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="17" type="stmt"/>
+        <line num="50" count="20" type="stmt"/>
+        <line num="51" count="5" type="stmt"/>
+        <line num="58" count="20" type="stmt"/>
+        <line num="65" count="5" type="stmt"/>
+        <line num="66" count="20" type="stmt"/>
+        <line num="67" count="11" type="stmt"/>
+        <line num="88" count="5" type="stmt"/>
+        <line num="89" count="5" type="stmt"/>
+        <line num="90" count="20" type="stmt"/>
+        <line num="91" count="20" type="stmt"/>
+        <line num="93" count="5" type="stmt"/>
+        <line num="94" count="5" type="stmt"/>
+        <line num="103" count="20" type="stmt"/>
+        <line num="116" count="20" type="stmt"/>
+        <line num="124" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="125" count="1" type="stmt"/>
+        <line num="127" count="5" type="stmt"/>
+        <line num="128" count="17" type="stmt"/>
+        <line num="144" count="3" type="stmt"/>
+        <line num="145" count="3" type="stmt"/>
+        <line num="158" count="3" type="stmt"/>
+        <line num="159" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="175" count="4" type="stmt"/>
+        <line num="176" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="177" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="178" count="3" type="stmt"/>
+        <line num="180" count="1" type="stmt"/>
+        <line num="183" count="8" type="stmt"/>
+        <line num="204" count="5" type="stmt"/>
+        <line num="205" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="206" count="5" type="stmt"/>
+        <line num="207" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="208" count="3" type="stmt"/>
+        <line num="209" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="213" count="2" type="stmt"/>
+        <line num="215" count="5" type="stmt"/>
+        <line num="217" count="13" type="stmt"/>
+        <line num="233" count="3" type="stmt"/>
+        <line num="234" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="235" count="3" type="stmt"/>
+        <line num="236" count="3" type="stmt"/>
+        <line num="238" count="6" type="stmt"/>
+      </file>
+      <file name="objects.ts" path="C:\Users\thiag\first_project\tasks\src\objects.ts">
+        <metrics statements="29" coveredstatements="28" conditionals="8" coveredconditionals="7" methods="11" coveredmethods="11"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="23" count="6" type="stmt"/>
+        <line num="34" count="14" type="stmt"/>
+        <line num="35" count="14" type="stmt"/>
+        <line num="36" count="14" type="stmt"/>
+        <line num="46" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="47" count="8" type="stmt"/>
+        <line num="48" count="10" type="cond" truecount="1" falsecount="1"/>
+        <line num="49" count="10" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="62" count="5" type="stmt"/>
+        <line num="63" count="5" type="stmt"/>
+        <line num="85" count="4" type="stmt"/>
+        <line num="86" count="4" type="stmt"/>
+        <line num="87" count="4" type="stmt"/>
+        <line num="88" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="92" count="6" type="stmt"/>
+        <line num="94" count="4" type="stmt"/>
+        <line num="95" count="4" type="stmt"/>
+        <line num="103" count="2" type="stmt"/>
+        <line num="104" count="2" type="stmt"/>
+        <line num="113" count="4" type="stmt"/>
+        <line num="117" count="4" type="stmt"/>
+        <line num="127" count="5" type="stmt"/>
+        <line num="137" count="5" type="stmt"/>
+        <line num="148" count="2" type="stmt"/>
+        <line num="152" count="2" type="stmt"/>
+        <line num="169" count="2" type="stmt"/>
+        <line num="179" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.bad-components">
+      <metrics statements="29" coveredstatements="28" conditionals="2" coveredconditionals="1" methods="19" coveredmethods="19"/>
+      <file name="ChooseTeam.tsx" path="C:\Users\thiag\first_project\tasks\src\bad-components\ChooseTeam.tsx">
+        <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="1" methods="6" coveredmethods="6"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="14" count="18" type="stmt"/>
+        <line num="15" count="18" type="stmt"/>
+        <line num="18" count="9" type="cond" truecount="1" falsecount="1"/>
+        <line num="19" count="9" type="stmt"/>
+        <line num="20" count="9" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="28" count="18" type="stmt"/>
+        <line num="34" count="108" type="stmt"/>
+        <line num="37" count="9" type="stmt"/>
+        <line num="48" count="15" type="stmt"/>
+      </file>
+      <file name="ColoredBox.tsx" path="C:\Users\thiag\first_project\tasks\src\bad-components\ColoredBox.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="13" count="8" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="25" count="8" type="stmt"/>
+        <line num="41" count="8" type="stmt"/>
+        <line num="42" count="8" type="stmt"/>
+      </file>
+      <file name="DoubleHalf.tsx" path="C:\Users\thiag\first_project\tasks\src\bad-components\DoubleHalf.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="5" count="13" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="12" count="13" type="stmt"/>
+      </file>
+      <file name="DoubleHalfState.tsx" path="C:\Users\thiag\first_project\tasks\src\bad-components\DoubleHalfState.tsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="ShoveBox.tsx" path="C:\Users\thiag\first_project\tasks\src\bad-components\ShoveBox.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="11" count="8" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="15" count="8" type="stmt"/>
+        <line num="19" count="8" type="stmt"/>
+        <line num="36" count="8" type="stmt"/>
+        <line num="38" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components">
+      <metrics statements="59" coveredstatements="58" conditionals="26" coveredconditionals="24" methods="20" coveredmethods="20"/>
+      <file name="ChangeType.tsx" path="C:\Users\thiag\first_project\tasks\src\components\ChangeType.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="10" count="10" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="18" count="10" type="stmt"/>
+      </file>
+      <file name="Counter.tsx" path="C:\Users\thiag\first_project\tasks\src\components\Counter.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+      </file>
+      <file name="CycleHoliday.tsx" path="C:\Users\thiag\first_project\tasks\src\components\CycleHoliday.tsx">
+        <metrics statements="18" coveredstatements="17" conditionals="6" coveredconditionals="5" methods="5" coveredmethods="5"/>
+        <line num="6" count="18" type="stmt"/>
+        <line num="10" count="18" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="14" count="18" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="18" count="18" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="42" count="3" type="stmt"/>
+        <line num="51" count="6" type="stmt"/>
+        <line num="52" count="6" type="stmt"/>
+        <line num="53" count="6" type="stmt"/>
+        <line num="56" count="6" type="cond" truecount="5" falsecount="1"/>
+        <line num="58" count="2" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+      </file>
+      <file name="RevealAnswer.tsx" path="C:\Users\thiag\first_project\tasks\src\components\RevealAnswer.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="5" count="9" type="stmt"/>
+        <line num="7" count="9" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="11" count="9" type="stmt"/>
+      </file>
+      <file name="StartAttempt.tsx" path="C:\Users\thiag\first_project\tasks\src\components\StartAttempt.tsx">
+        <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="5" methods="4" coveredmethods="4"/>
+        <line num="5" count="66" type="stmt"/>
+        <line num="6" count="66" type="stmt"/>
+        <line num="7" count="66" type="stmt"/>
+        <line num="8" count="16" type="cond" truecount="1" falsecount="1"/>
+        <line num="9" count="16" type="stmt"/>
+        <line num="10" count="16" type="stmt"/>
+        <line num="13" count="66" type="stmt"/>
+        <line num="14" count="12" type="stmt"/>
+        <line num="16" count="66" type="stmt"/>
+        <line num="17" count="10" type="stmt"/>
+        <line num="19" count="66" type="stmt"/>
+      </file>
+      <file name="TwoDice.tsx" path="C:\Users\thiag\first_project\tasks\src\components\TwoDice.tsx">
+        <metrics statements="19" coveredstatements="19" conditionals="8" coveredconditionals="8" methods="5" coveredmethods="5"/>
+        <line num="11" count="17" type="stmt"/>
+        <line num="15" count="27" type="stmt"/>
+        <line num="16" count="27" type="stmt"/>
+        <line num="17" count="27" type="stmt"/>
+        <line num="19" count="27" type="stmt"/>
+        <line num="20" count="8" type="stmt"/>
+        <line num="21" count="8" type="stmt"/>
+        <line num="22" count="8" type="stmt"/>
+        <line num="25" count="27" type="stmt"/>
+        <line num="26" count="9" type="stmt"/>
+        <line num="27" count="9" type="stmt"/>
+        <line num="28" count="9" type="stmt"/>
+        <line num="31" count="27" type="stmt"/>
+        <line num="32" count="17" type="cond" truecount="4" falsecount="0"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="37" count="15" type="stmt"/>
+        <line num="41" count="27" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.form-components">
+      <metrics statements="41" coveredstatements="41" conditionals="16" coveredconditionals="15" methods="18" coveredmethods="18"/>
+      <file name="ChangeColor.tsx" path="C:\Users\thiag\first_project\tasks\src\form-components\ChangeColor.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="15" count="7" type="stmt"/>
+        <line num="16" count="7" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="19" count="7" type="stmt"/>
+        <line num="24" count="56" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+      </file>
+      <file name="CheckAnswer.tsx" path="C:\Users\thiag\first_project\tasks\src\form-components\CheckAnswer.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="8" count="19" type="stmt"/>
+        <line num="10" count="19" type="stmt"/>
+        <line num="11" count="11" type="stmt"/>
+        <line num="14" count="19" type="stmt"/>
+      </file>
+      <file name="EditMode.tsx" path="C:\Users\thiag\first_project\tasks\src\form-components\EditMode.tsx">
+        <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="5" coveredmethods="5"/>
+        <line num="4" count="38" type="stmt"/>
+        <line num="5" count="38" type="stmt"/>
+        <line num="6" count="38" type="stmt"/>
+        <line num="8" count="38" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="11" count="38" type="stmt"/>
+        <line num="12" count="23" type="stmt"/>
+        <line num="14" count="38" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="17" count="38" type="stmt"/>
+        <line num="53" count="38" type="stmt"/>
+      </file>
+      <file name="GiveAttempts.tsx" path="C:\Users\thiag\first_project\tasks\src\form-components\GiveAttempts.tsx">
+        <metrics statements="13" coveredstatements="13" conditionals="6" coveredconditionals="5" methods="4" coveredmethods="4"/>
+        <line num="4" count="17" type="stmt"/>
+        <line num="5" count="17" type="stmt"/>
+        <line num="6" count="17" type="stmt"/>
+        <line num="7" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="11" count="17" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="18" count="17" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="21" count="17" type="stmt"/>
+      </file>
+      <file name="MultipleChoiceQuestion.tsx" path="C:\Users\thiag\first_project\tasks\src\form-components\MultipleChoiceQuestion.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="10" count="12" type="stmt"/>
+        <line num="11" count="12" type="stmt"/>
+        <line num="12" count="12" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="17" count="12" type="stmt"/>
+        <line num="22" count="34" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.interfaces">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="answer.ts" path="C:\Users\thiag\first_project\tasks\src\interfaces\answer.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="question.ts" path="C:\Users\thiag\first_project\tasks\src\interfaces\question.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+  </project>
+</coverage>
